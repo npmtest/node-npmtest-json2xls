@@ -1,6 +1,6 @@
 # npmtest-json2xls
 
-#### test coverage for  [json2xls (v0.1.2)](https://github.com/rikkertkoppes/json2xls#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-json2xls.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json2xls) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json2xls.svg)](https://travis-ci.org/npmtest/node-npmtest-json2xls)
+#### basic test coverage for  [json2xls (v0.1.2)](https://github.com/rikkertkoppes/json2xls#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-json2xls.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json2xls) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json2xls.svg)](https://travis-ci.org/npmtest/node-npmtest-json2xls)
 
 #### canonically transform json to an excel document
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-json2xls/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-json2xls/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-json2xls/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-json2xls/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json2xls/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json2xls/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-json2xls/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-json2xls/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json2xls/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json2xls/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-json2xls/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-json2xls/build/coverage.html/index.html)
 
@@ -69,7 +69,8 @@
     "scripts": {
         "test": "jasmine-node spec"
     },
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
